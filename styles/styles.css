@@ -1,0 +1,638 @@
+
+
+/**************** Body and tag styles ****************/
+
+*{margin:0; padding:0;}
+
+body{
+font:76% Verdana,Tahoma,Arial,sans-serif;
+line-height:1.4em;
+text-align:center;
+color:#303030;
+background-image: linear-gradient( #b2b0ac, #ffffff);
+	background-repeat: no-repeat;
+}
+
+a{
+color:#000A7E;
+
+font-weight: bold;
+text-decoration: none;
+background-color:inherit;
+	margin-left: 0;
+	margin-right: 0;
+}
+a:hover{color:#696969; text-decoration: none; background-color:inherit;
+}
+
+
+a img{border:none;
+}
+p{padding:0 0 1.6em 0;
+}
+p form{margin-top:0; margin-bottom:20px;
+}
+
+#cloud { height: 400px;
+        width: 400px;
+        display: block; margin-left: auto; margin-right: auto; }
+
+/**************** Header and navigation styles ****************/
+
+#container{
+width:850px;
+margin:20px auto;
+padding:1px 1px 1px 1px;
+text-align:left;
+background:#ffffff;
+color:#303030;
+border:3px solid #000A7E;
+}
+#header{
+height: 200px;
+width: 850px;
+margin: 0;
+color: #ffffff;
+background-image: url(../images/digitalmedia.jpg); background-repeat: no-repeat;
+    
+}
+#header h1{
+padding-top: 45px;
+font-size: 7em;
+background-color:inherit;
+color: rgba(255,255,255, 0.8);
+font-weight: bold;
+text-align: center;
+font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+#header h2{
+padding-left: 45px;
+letter-spacing: .05em;
+padding-top: 35px;
+font-size:2em;
+background-color:inherit;
+color:#FFFFFF;
+font-weight:bold;
+line-height: 110%;
+font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+#navigation{
+height: 3.5em;
+line-height: 2.2em;
+width: 100%;
+margin: 0;
+background-image: -webkit-linear-gradient(270deg,rgba(0,10,126,1.00) 0%,rgba(5,26,255,1.00) 97.05%);
+background-image: -moz-linear-gradient(270deg,rgba(0,10,126,1.00) 0%,rgba(5,26,255,1.00) 97.05%);
+background-image: -o-linear-gradient(270deg,rgba(0,10,126,1.00) 0%,rgba(5,26,255,1.00) 97.05%);
+background-image: linear-gradient(180deg,rgba(0,10,126,1.00) 0.00%,rgba(5,26,255,1.00) 97.05%);
+color: #ffffff;
+border-bottom: 3px solid #91e0ff;
+border-top: 3px solid #91e0ff;
+}
+#navigation li{
+float: left;
+list-style-type:none;
+white-space:nowrap;
+height: 2.6em;
+padding-left: 10px;
+padding-right: 15px;
+padding-bottom: 0;
+padding-top: 10px;
+}
+#navigation li a{
+display:block;
+font-size: 1.5em;
+font-weight: normal;
+text-transform:uppercase;
+text-decoration:none;
+background-color:inherit;
+color: #ffffff;
+}
+* html  {width:1%;}
+#navigation li:hover{
+background-color: #696969;
+color: #ffffff;
+text-decoration: none;
+}
+
+
+/**************** Content styles ****************/
+
+#content{
+float:left;
+width:68%;
+padding:20px 0 0 20px;
+background-color: #FFFFFF;
+font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+padding-left: 1em; 
+padding-right: 1em;
+font-size: 14px;
+line-height: 1.5; }
+#content2{
+float:left;
+width:95%;
+padding:20px 0 0 20px;
+background-color: #FFFFFF;
+font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+padding-left: 1em; 
+padding-right: 1em;
+font-size: 14px;
+line-height: 1.5; }
+#content >h2  {
+display:block;
+font-size: 3em;
+font-weight:bold;
+letter-spacing:-1px;
+color: #000532;
+background-color:inherit;
+}
+#content2 >h2  { font-size: 3em;
+font-weight:bold;
+letter-spacing:-1px;
+color: #000532;
+background-color:inherit;
+}
+h3 { font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+color: #000532;
+font-size: 2em;
+}
+h4 { font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+color: #000532;
+font-size: 14px;
+}
+#content h4  {margin:0 0 5px 0; font-size:1.4em; letter-spacing:-1px;
+}
+#content a:hover,#subcontent a:hover{text-decoration: none;
+color: #696969;
+}
+#content a { color: #000A7E;
+}
+
+#content a:visited { color: #696969; }
+#content ul,#content ol {margin:0 5px 16px 35px;
+}
+#content dl{margin:0 5px 10px 25px;
+}
+#content dt{font-weight:bold; margin-bottom:5px;
+}
+#content dd{margin:0 0 10px 15px;
+}
+
+#content2 a:hover,#subcontent a:hover{text-decoration: none;
+color: #696969;
+}
+#content2 a { color: #000A7E;
+}
+#content2 a:visited { color: #696969; }
+#content ul li { padding-left: .1em; margin-left: 30px;}
+#content2 ul li { padding-left: .1em; margin-left: 30px;}
+
+/**************** Sidebar styles ****************/
+#karen #goals { display: block; 
+margin-left: auto;
+margin-right: auto; 
+}
+#subcontent{
+float:left;
+width:210px;
+	height: 730px;
+padding:20px 20px 10px 5px;
+line-height:1.4em;
+background-color: rgba(183, 226, 246, 0.5);
+}
+#subcontent h3{
+display:block;
+font-size: 1.5em;
+font-weight:bolder;
+text-align:left;
+font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+color: #000532;
+}
+
+#subcontent2 { 
+float: left;
+width: 225px;
+background-color: #b7e2f6; 
+height: 2800px; 
+}
+#name { color: #000532;
+text-align: center;
+font-size: 1.2em;
+padding-top: 1em;
+}
+ul.skills { font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+list-style-type: none;
+text-align: left; 
+padding-left: 1em;
+font-size: 1.2em;
+padding-top: .2em;
+padding-bottom: 3em; 
+}
+.resumetitle { color: #000532;
+font-size: 2em;
+border-bottom: 3px solid #000532; 
+}
+#reslogo { display: block; 
+margin-left: auto;
+margin-right: auto;
+padding-top: 10px; 
+}
+#subcontent2 > h3 { font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+color: #ffffff;
+background-color: #000532;
+font-size: 16pt;
+padding-left: .2em; 
+padding-top: .2em;
+padding-bottom: .2em;
+	text-align: left;	
+}
+#subcontent2 li a { color: #000a7e; 
+}
+#subcontent2 li a:hover {text-decoration: none;
+color: #696969;
+}
+
+#subcontent img { display: block;
+                margin-left: auto;
+                margin-right: auto; }
+/**************** Menublock styles ****************/
+
+.menublock{margin:0 0 20px 8px; font-size:0.9em;
+}
+.menublock li{list-style:none; display:block; padding:2px; margin-bottom:2px;
+font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+color: #000000; 
+font-size: 1.2em;
+}
+.menublock li a{font-weight:bold; text-decoration:none;
+}
+.menublock li a:hover{text-decoration:none;
+}
+.menublock li ul{margin:3px 0 3px 15px; font-size:2em; font-weight:normal;
+font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+color: #000000;
+}
+.menublock li ul li{margin-bottom:0;
+}
+.menublock li ul a{font-weight:normal;
+}
+
+
+
+/**************** Footer styles ****************/
+
+#footer{
+clear:both;
+width:100%;
+height: 30px;
+padding-top: 12px;
+margin:0;
+font-size: 0.9em;
+color:#f0f0f0;
+background: #000A7E;
+border-top: 10px solid #91e0ff;
+}
+#footer p{padding:0; margin:0; text-align:center;
+}
+#footer a{color:#f0f0f0; background-color:inherit; font-weight:bold;
+}
+#footer a:hover{color:#696969; background-color:inherit; text-decoration: none;
+}
+
+/**************** Misc classes and styles ****************/
+
+
+.box{ width: 200px;
+margin:0 0 20px 0;
+padding:10px;
+border:1px solid #c0c0c0;
+background-color:#83c7e2;
+color:#505050;
+line-height:1.2em;
+	float: right; 
+margin-left: 5px;
+}
+/*****Table styles*********/
+
+        
+
+
+#program { width: 95%;
+margin-left: auto;
+margin-right: auto;
+font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+margin-bottom: 50px; 
+}
+#program caption { text-align: center;
+font-size: 16pt; 
+background-color: #000532;
+color: #ffffff;
+padding: 5px; 
+}
+#program, #program th, #program td { border: 1px solid #000532; padding: 5px;
+}
+#program th { text-align:center; padding: 5px; line-height: 110%;
+color: #104A60; 
+}
+.center { text-align: center; 
+}
+.left { padding-left: 5px; 
+}
+.right { text-align: right; 
+	padding-right: 5px;
+} 
+#ISLT { float: left;
+	line-height: 100%;
+padding-left: 5px;
+}
+.table2 { width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	}
+.year { text-align: right; 
+vertical-align: top; 
+}
+.employ  { line-height: 130%; 
+	vertical-align: top;
+
+}
+.training { vertical-align: top; 
+}
+.certificates { padding-left: 10px; 
+border-left: 3px dotted #000532;
+}
+.ed { padding-right: 10px;
+	vertical-align: top;}
+#pd { padding-bottom: 30px;}
+.honors { vertical-align: top;
+	padding-left: 10px;
+
+border-left: 3px dotted #000532;
+}
+.icons { vertical-align: middle;
+padding-bottom: 3px;
+}
+/******Three Columns***/
+#columns { padding-left: 12px;
+}
+#content_right {
+margin: 0 auto;
+padding: 5px;
+display: inline;
+float: left;
+width: 255px;
+background-color: rgba(125, 205, 241, 0.5);
+height: 1300px;
+
+margin-bottom: 10px;
+}
+#content_right >h4, #content_middle >h4, #content_left >h4, #content_large >h4 { color: #000532;
+font-size: 18pt;
+text-align: center; 
+}
+
+#content_right >h5, #content_middle >h5, #content_left >h5, #content_large >h5 { color: #000000;
+font-size: 12pt;
+text-align: center; 
+}
+#content_right li, #content_middle li, #content_left li,  #content_large li { list-style-type: none;
+}
+#content_middle {
+margin-left: 0;
+padding: 5px;
+display: inline;
+float: left;
+width: 255px;
+height: 1300px;
+background-color: rgba(35,169,231,0.5);
+
+margin-bottom: 10px;
+}
+#mcpad { padding-bottom: 4.5em;}
+#content_left { 
+margin: 0 auto;
+padding: 5px;
+display: inline;
+float: left;
+width: 255px;
+height: 1300px;
+background-color: rgba(183,226,246,0.50);
+
+margin-bottom: 10px;
+}
+#content_large { 
+margin: 0 auto;
+padding: 5px;
+
+width: 765px;
+height: 975px;
+background-color: rgba(183,226,246,0.50);
+
+margin-bottom: 10px;
+}
+.goals { display: block; 
+margin-left: auto;
+margin-right: auto; 
+padding-bottom: 20px;
+}
+#program { width: 85%; 
+}
+.projects {
+ background-color: #104a60; 
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+height: 50px;
+width: 250px;
+margin-bottom: 10px;
+}
+.projects:hover { background-color: #696969;
+}
+.reflect { border-top: 1px dotted #104a60;
+}
+.resumetitle { color: #000532;
+font-size: 2em;
+border-bottom: 3px solid #000532; 
+	padding-bottom: 0;
+	font-weight: bold;
+}
+#contact { width: 600px;
+padding: 3px;
+margin-left: auto;
+margin-right: auto; 
+}
+#form1 { padding-bottom: 10px;}
+.buttonResume {
+ background-color: #000A7E; 
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+
+ display: block;
+	margin-left: auto;
+	margin-right: auto;
+ font-size: 16px;
+height: 50px;
+width: 200px;
+	margin-bottom: 10px; }
+	
+		.buttonResume:hover { background-color: #696969;
+		text-decoration: none; }
+
+.buttonResume:active {
+  background-color: #404040;
+  box-shadow: 0 5px #666; }
+
+
+.buttonColumn {
+ background-color: #000A7E; 
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+
+ display: block;
+	margin-left: auto;
+	margin-right: auto;
+ font-size: 16px;
+height: 50px;
+width: 200px;
+	margin-bottom: 20px; 
+margin-top: 20px;}
+	
+		.buttonColumn:hover { background-color: #696969;
+		text-decoration: none; }
+
+.buttonColumn:active {
+  background-color: #404040;
+  box-shadow: 0 5px #666; }
+.buttonUsability {
+ background-color: #000A7E; 
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+
+ display: block;
+	margin-left: auto;
+	margin-right: auto;
+ font-size: 16px;
+height: 75px;
+width: 200px;
+	margin-bottom: 20px; 
+margin-top: 20px;}
+	
+		.buttonUsability:hover { background-color: #696969;
+		text-decoration: none; }
+
+.buttonUsability:active {
+  background-color: #404040;
+  box-shadow: 0 5px #666; }
+
+.buttonCompetencies {
+ background-color: #000A7E; 
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+
+ display: block;
+	margin-left: auto;
+	margin-right: auto;
+ font-size: 16px;
+height: 50px;
+width: 250px;
+	margin-bottom: 20px; 
+margin-top: 20px;}
+	
+		.buttonCompetencies:hover { background-color: #696969;
+		text-decoration: none; }
+
+.buttonCompetencies:active {
+  background-color: #404040;
+  box-shadow: 0 5px #666; }
+
+/******************accordion*********************/
+
+.accordionMenu{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.accordionMenu input[type=radio]{
+    display: none;
+}
+.accordionMenu label{
+    display: block;
+    height: 50px;
+    line-height: 47px;
+    padding: 0 25px 0 10px;
+    background: #000a7e;
+    font-size: 18pt;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px solid #e6e6e6;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+}
+
+.accordionMenu label::after{
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 10px;
+    border-color: transparent transparent transparent #ffffff;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    z-index: 10;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.accordionMenu .content{
+    max-height: 0;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}
+.accordionMenu .content .inner{
+    font-size: 12pt;
+    color: #000000;
+    line-height: 1.5;
+    background: #ebebeb;
+    padding: 20px 10px;
+}
+
+.accordionMenu input[type=radio]:checked + label:after{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+ 
+.accordionMenu input[type=radio]:checked + label + .content{
+    max-height: 2000px;
+    height: auto;
+}
+#hamburger { display: none; }
+.wakeletEmbed { display: block; margin-left: auto; margin-right: auto; margin-top: 20px;
+				width: 90%;
+				height: 700px;
+padding-bottom: 20px;}
