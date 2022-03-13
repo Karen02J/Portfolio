@@ -19,16 +19,19 @@
 				padding-top: 20px;}
     #subcontent { width: 94%;
     height: 400px;
+	margin-top: 500px;
 	}
     #content {width: 90%;
-		margin-top: 20px;
+		
 		
 		z-index: 1;
 		
 			}
-	#content2 { width: 90%;}
+	#content2 { width: 90%;
+	margin-top: 500px;}
     .box { float: none;
                  width: 95%;
+		
 	
 		z-index: 1;
 		
@@ -49,6 +52,7 @@
     
 	#subcontent2 { width: 100%;
 		height: 800px;
+		margin-top: 500px;
 	} 
 	
 	
@@ -147,4 +151,5 @@ border-bottom: 3px solid #000532;
 .wakeletEmbed { width: 90%;}
 #pdPlan { position: absolute; 
 		z-index: 1;}
+#video { width: 95%; }
 

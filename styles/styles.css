@@ -86,8 +86,8 @@ background-image: -moz-linear-gradient(270deg,rgba(0,10,126,1.00) 0%,rgba(5,26,2
 background-image: -o-linear-gradient(270deg,rgba(0,10,126,1.00) 0%,rgba(5,26,255,1.00) 97.05%);
 background-image: linear-gradient(180deg,rgba(0,10,126,1.00) 0.00%,rgba(5,26,255,1.00) 97.05%);
 color: #ffffff;
-border-bottom: 3px solid #91e0ff;
-border-top: 3px solid #91e0ff;
+border-bottom: 3px solid #4755EC;
+border-top: 3px solid #4755EC;
 }
 #navigation li{
 float: left;
@@ -103,16 +103,15 @@ padding-top: 10px;
 display:block;
 font-size: 1.5em;
 font-weight: normal;
-text-transform:uppercase;
 text-decoration:none;
 background-color:inherit;
 color: #ffffff;
 }
 * html  {width:1%;}
-#navigation li:hover{
-background-color: #696969;
-color: #ffffff;
-text-decoration: none;
+#navigation li a:hover{
+color: #91e0ff;
+text-decoration: underline;
+	
 }
 
 
@@ -480,7 +479,8 @@ margin-right: auto;
  font-size: 16px;
 height: 50px;
 width: 200px;
-	margin-bottom: 10px; }
+	margin-bottom: 20px; 
+margin-top: 20px;}
 	
 		.buttonResume:hover { background-color: #696969;
 		text-decoration: none; }
@@ -636,3 +636,37 @@ margin-top: 20px;}
 				width: 90%;
 				height: 700px;
 padding-bottom: 20px;}
+
+/*Inclusion styles*/
+#inclusion { width: 65%;
+            margin-left: auto;
+            margin-right: auto; 
+            background-color: whitesmoke;
+            padding: 20px; 
+            margin-bottom: 30px; 
+			margin-top: 30px;
+    		box-shadow: 10px 10px 5px grey; 
+            }
+#inclusion h4 { font-family: georgia, serif; 
+				font-size: 1.1em;
+				text-align: center;
+				color: #000a7e;}
+
+span { float: left;
+		line-height: 85%;
+		width: .5em;
+		font-size: 550%;
+		font-family: georgia, serif;
+		font-weight: bold;
+        color: #000a7e;
+        text-shadow: 2px 2px #696969;
+
+}
+.inclusion1 { 
+			margin-top: 1em;
+font-family: georgia, serif;}
+
+.inclusion2 { text-indent: 3em;
+				font-family: georgia, serif;}
+
+
