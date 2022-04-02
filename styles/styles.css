@@ -212,7 +212,7 @@ color: #000532;
 float: left;
 width: 225px;
 background-color: #b7e2f6; 
-height: 2800px; 
+height: 2900px; 
 }
 #name { color: #000532;
 text-align: center;
@@ -304,12 +304,14 @@ border-top: 10px solid #91e0ff;
 .box{ width: 200px;
 margin:0 0 20px 0;
 padding:10px;
-border:1px solid #c0c0c0;
-background-color:#83c7e2;
-color:#505050;
+border-top:10px solid #000a7e;
+background-color:#f5f6ff;
+color:#000A7E;
 line-height:1.2em;
 	float: right; 
 margin-left: 5px;
+	 box-shadow: 2px 5px 3px #888888;
+
 }
 /*****Table styles*********/
 
