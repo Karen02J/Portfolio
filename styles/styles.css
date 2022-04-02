@@ -104,13 +104,13 @@ display:block;
 font-size: 1.5em;
 font-weight: normal;
 text-decoration:none;
-background-color:inherit;
 color: #ffffff;
 }
+#navigation li:hover { background-color: #696969;}
 * html  {width:1%;}
 #navigation li a:hover{
-color: #91e0ff;
-text-decoration: underline;
+
+text-decoration: none;
 	
 }
 
@@ -197,7 +197,7 @@ width:210px;
 	height: 780px;
 padding:20px 20px 10px 5px;
 line-height:1.4em;
-background-color: rgba(183, 226, 246, 0.5);
+background-color: #EBEBEB;
 }
 #subcontent h3{
 display:block;
@@ -211,7 +211,7 @@ color: #000532;
 #subcontent2 { 
 float: left;
 width: 225px;
-background-color: #b7e2f6; 
+background-color: #EBEBEB; 
 height: 2900px; 
 }
 #name { color: #000532;
@@ -289,7 +289,7 @@ margin:0;
 font-size: 0.9em;
 color:#f0f0f0;
 background: #000A7E;
-border-top: 10px solid #91e0ff;
+border-top: 10px solid #4755EC;
 }
 #footer p{padding:0; margin:0; text-align:center;
 }
